@@ -25,9 +25,9 @@ score:
 schematics:
   schematic-name:
     # The minimum amount of players for the timer to start
-    min-players: 2
+    min-players: 100
     # The count down timer before the game starts
-    timer: 11
+    timer:10
 # Unused at the moment
 statistics:
   # Statistics update interval
@@ -38,7 +38,7 @@ statistics:
 data-storage: FILE
 # Requires data-storage to be set to SQL
 database:
-  hostname: localhost
+  hostname: hermanoslatinoamericanos
   port: 3306
   username: username
   password: password
